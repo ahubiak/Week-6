@@ -1,0 +1,21 @@
+file_type: csv
+dataset_name: custom_data
+file_name: /content/drive/MyDrive/custom_data.csv
+table_name: edsurv
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - modelyear
+    - make
+    - model
+    - vehicleclass
+    - enginesize
+    - cylinders
+    - transmission
+    - fueltype
+    - fuelconsumption_city
+    - cfuelconsumption_highway
+    - fuelconsumption_comb
+    - fuelconsumption_comb_mpg
+    - co2emissions
